@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="habitEntity.HabitTest" time="1.456" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="habitEntity.HabitTest" time="1.474" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits\target\test-classes;C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits\target\classes;C:\Users\FTP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\FTP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\FTP\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\FTP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\FTP\.m2\repository\org\mockito\mockito-core\5.14.1\mockito-core-5.14.1.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy\1.15.3\byte-buddy-1.15.3.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.3\byte-buddy-agent-1.15.3.jar;C:\Users\FTP\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\FTP\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\FTP\.m2\repository\com\github\stefanbirkner\system-lambda\1.2.1\system-lambda-1.2.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\FTP\Documents\GitHub\trackYourHabits\target\test-classes;C:\Users\FTP\Documents\GitHub\trackYourHabits\target\classes;C:\Users\FTP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\FTP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\FTP\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\FTP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\FTP\.m2\repository\org\mockito\mockito-core\5.14.1\mockito-core-5.14.1.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy\1.15.3\byte-buddy-1.15.3.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.3\byte-buddy-agent-1.15.3.jar;C:\Users\FTP\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\FTP\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\FTP\AppData\Local\Temp\surefire12972271250913980978\surefirebooter-20241021185402978_3.jar C:\Users\FTP\AppData\Local\Temp\surefire12972271250913980978 2024-10-21T18-54-02_334-jvmRun1 surefire-20241021185402978_1tmp surefire_0-20241021185402978_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\FTP\AppData\Local\Temp\surefire12892063059571485309\surefirebooter-20241022192930487_3.jar C:\Users\FTP\AppData\Local\Temp\surefire12892063059571485309 2024-10-22T19-29-29_774-jvmRun1 surefire-20241022192930487_1tmp surefire_0-20241022192930487_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits\target\test-classes;C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits\target\classes;C:\Users\FTP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\FTP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\FTP\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\FTP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\FTP\.m2\repository\org\mockito\mockito-core\5.14.1\mockito-core-5.14.1.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy\1.15.3\byte-buddy-1.15.3.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.3\byte-buddy-agent-1.15.3.jar;C:\Users\FTP\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\FTP\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\FTP\.m2\repository\com\github\stefanbirkner\system-lambda\1.2.1\system-lambda-1.2.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\FTP\Documents\GitHub\trackYourHabits\target\test-classes;C:\Users\FTP\Documents\GitHub\trackYourHabits\target\classes;C:\Users\FTP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\FTP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\FTP\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\FTP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\FTP\.m2\repository\org\mockito\mockito-core\5.14.1\mockito-core-5.14.1.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy\1.15.3\byte-buddy-1.15.3.jar;C:\Users\FTP\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.3\byte-buddy-agent-1.15.3.jar;C:\Users\FTP\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\FTP\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\FTP"/>
     <property name="user.language" value="ru"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-04-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits"/>
+    <property name="basedir" value="C:\Users\FTP\Documents\GitHub\trackYourHabits"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\FTP\AppData\Local\Temp\surefire12972271250913980978\surefirebooter-20241021185402978_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FTP\AppData\Local\Temp\surefire12892063059571485309\surefirebooter-20241022192930487_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -45,7 +45,7 @@
     <property name="java.io.tmpdir" value="C:\Users\FTP\AppData\Local\Temp\"/>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.version" value="17.0.11"/>
-    <property name="user.dir" value="C:\Users\FTP\Documents\GitHub\javahw\TrackYourHabits"/>
+    <property name="user.dir" value="C:\Users\FTP\Documents\GitHub\trackYourHabits"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,22 +57,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testGetCompletionStats" classname="habitEntity.HabitTest" time="1.394">
+  <testcase name="testGetCompletionStats" classname="habitEntity.HabitTest" time="1.426">
     <system-out><![CDATA[Habit added successfully
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCurrentStreak" classname="habitEntity.HabitTest" time="0.013">
+  <testcase name="testGetCurrentStreak" classname="habitEntity.HabitTest" time="0.007">
     <system-out><![CDATA[Habit added successfully
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGetHabitProgressionReport" classname="habitEntity.HabitTest" time="0.009">
+  <testcase name="testGetHabitProgressionReport" classname="habitEntity.HabitTest" time="0.012">
     <system-out><![CDATA[Habit added successfully
 
 ]]></system-out>
   </testcase>
-  <testcase name="testGetSuccessRate" classname="habitEntity.HabitTest" time="0.006">
+  <testcase name="testGetSuccessRate" classname="habitEntity.HabitTest" time="0.005">
     <system-out><![CDATA[Habit added successfully
 
 ]]></system-out>

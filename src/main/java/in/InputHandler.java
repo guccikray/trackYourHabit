@@ -19,7 +19,7 @@ public class InputHandler {
 
     //Method checks if user typed exit, if so we send user back to auth menu
     public String getUserInputOrExit(String dataType, String sectionName) {
-        System.out.println("Type " + dataType + " (or type 'exit' to cancel" + sectionName +" section)");
+        System.out.println("Type " + dataType + " (or type 'exit' to cancel " + sectionName +" section)");
         String input = getUserInput();
         if (input.equalsIgnoreCase("exit")) {
             System.out.println(sectionName + " canceled.");
